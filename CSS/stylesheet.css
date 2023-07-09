@@ -1,0 +1,112 @@
+body,h2{
+	margin: 0;
+	font-family: arial;
+    }
+.landing{
+	background-image: url("../Images/pizza1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: whitesmoke;
+}
+header a{
+	text-decoration: none;
+	color:#884A39;
+	padding: 1em;
+}
+header{
+	display: flex;
+}
+#logo{
+	flex: 3;
+	font-size: 1.25em;
+}
+nav{
+	flex: 2;
+	display: flex;
+	align-items: center;
+}
+nav a{
+	flex: 1;
+}
+nav a:hover{
+	color:#F9E0BB;
+}
+header h2 i,nav a i{
+	margin-right: 0.5em;
+}
+.maintext{
+	display: flex;
+	flex-direction: column;
+	height: 20vh;
+	justify-content: center;
+	padding: 2em;
+}
+.tag1{
+	color: #C38154;
+	font-size: 2em;
+	font-weight: bold;
+}
+.tag2{
+	color: #FFC26F;
+	font-size: 1.25em;
+}
+
+.maintext div{
+	margin-top: .75em;
+}
+.maintext button{
+	border-radius: 10px;
+	padding: 0.5em;
+	color: whitesmoke;
+	background-color: green;
+	border: 1px solid green;
+}
+button:hover{
+	color: black;
+	border: 1px solid #C38154;
+	background-color: #C38154;
+}
+.menu{
+	display: grid;
+	background-color: #1F1F1F;
+	color: whitesmoke;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr)) ;
+}
+#tagmenu,#tagloc{
+	background-color: #1F1F1F;
+	font-size: 1.5em;
+	color:#884A39;
+	display: flex;
+	justify-content: center;
+}
+.menu th{
+	color: #C38154;
+	font-size: 1.25em;
+}
+table{
+	width: 100%;
+	padding: 1em;
+}
+.Location h2{
+	color: #C38154;
+	margin-bottom: 0.75em;
+	font-size: 1.25em;
+
+}
+.Location{
+	background-color: #1F1F1F;
+	color: whitesmoke;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: center;
+}
+.Location div{
+	flex:1;
+	padding: 1em;
+}
+footer{
+	background-color: #171717;
+	color: whitesmoke;
+	padding: 0.25em 1em;
+}
